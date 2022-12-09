@@ -1,0 +1,21 @@
+@import '../style/_variable.scss';
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.lay-out-container {
+    width: 1272px;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    height: 100vh;
+    border-radius: 8px;
+    background-color: $back-ground;
+}
+.page-container {
+    padding: 40px;
+ 
+}
