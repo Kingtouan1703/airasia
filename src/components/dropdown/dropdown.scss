@@ -1,0 +1,18 @@
+.dropdown-container {
+  position: relative;
+  z-index: 100;
+  .content-container {
+      position: absolute;
+      &.left {
+        top: 0px;
+        left: -130px;
+      }
+      &.right {
+        top: 40px;
+        right: 0;
+      }
+      .contain-wrapper {
+        background-color: rgb(255 255 255);
+      }
+  }
+}

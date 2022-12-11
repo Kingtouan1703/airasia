@@ -1,0 +1,26 @@
+@import '../../style/variable';
+
+.team-info-container {
+  .team-info-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .title {
+      display: flex;
+      align-items: end;
+      font-size: 1.125rem; /* 18px */
+      line-height: 1.75rem; /* 28px */
+      font-weight: 500;
+      text-align: center;
+      height: 60px;
+    }
+    .active-button-container {
+      display: flex;
+    }
+  }
+  .team-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+}

@@ -1,0 +1,51 @@
+@import '../../style/variable';
+
+.team-card-wrapper {
+  .label {
+    color: $ds-clr-text-lv3;
+    margin-bottom: 8px;
+  }
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .sub-info-container {
+    margin-bottom: 16px;
+    .name {
+      font-size: 2.125rem; /* 18px */
+      line-height: 1.75rem; /* 28px */
+      font-weight: 500;
+    }
+    .location {
+      color: $ds-clr-text-lv1;
+    }
+  }
+  .contract-container {
+    display: flex;
+    justify-content: space-between;
+    .work-contract {
+      display: flex;
+    }
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgb(248 248 248);
+    margin-bottom: 24px;
+  }
+  .role-container {
+    margin-bottom: 16px;
+    .role {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+  }
+  .task-container {
+    margin-bottom: 16px;
+  }
+}

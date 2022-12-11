@@ -1,21 +1,28 @@
-@import '../style/_variable.scss';
+@import '_variable.scss';
 
 body {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 .lay-out-container {
-    width: 1272px;
-    max-width: 100%;
-    margin: auto;
-    position: relative;
-    height: 100vh;
-    border-radius: 8px;
-    background-color: $back-ground;
+  width: 1272px;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  border-radius: 8px;
+  background-color: $back-ground;
 }
 .page-container {
-    padding: 40px;
- 
+  padding: 40px;
+}
+.ml-3 {
+  margin-left: 12px;
+}
+.mr-3 {
+  margin-right: 12px;
 }
